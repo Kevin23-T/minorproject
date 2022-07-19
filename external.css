@@ -1,0 +1,244 @@
+h1.H {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+  align-items: center;
+}
+
+.QutubMinar {
+  position: relative;
+  padding: 10px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(246, 158, 76, 0.753),
+    rgb(139, 105, 66),
+    rgba(186, 145, 74, 0.578)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 40px;
+}
+
+.TajMahal {
+  position: relative;
+  padding: 10px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(22, 80, 119, 0.753),
+    rgb(96, 165, 188),
+    rgba(241, 243, 245, 0.625)
+  );
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 35px;
+}
+
+#SanchiStupa {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(154, 190, 110, 0.753),
+    rgb(101, 114, 37),
+    rgba(150, 131, 103, 0.653)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#VictoriaMemorial {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(147, 154, 162, 0.753),
+    rgb(138, 103, 73),
+    rgba(193, 148, 70, 0.619)
+  );
+  padding: 10px;
+  margin: 110px;
+  border-radius: 35px;
+}
+#HawaMahal {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  padding: 10px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(39, 165, 233, 0.753),
+    rgb(153, 155, 155),
+    rgba(77, 240, 40, 0.714)
+  );
+  margin: 110px;
+  border-radius: 35px;
+}
+#Hampi {
+  position: relative;
+  padding: 20px;
+  width: 550px;
+  background-image: linear-gradient(
+    160deg,
+    rgba(249, 36, 36, 0.753),
+    rgb(146, 183, 98),
+    rgba(239, 82, 82, 0.485)
+  );
+  padding: 10px;
+  margin: 110px;
+  color: rgb(0, 0, 0);
+  border-radius: 35px;
+}
+
+#Header {
+  position: relative;
+  top: 0px;
+  text-shadow: 100px;
+  background-image: linear-gradient(
+    120deg,
+    rgba(190, 184, 185, 0.952),
+    rgba(78, 44, 21, 0.56),
+    rgb(99, 94, 98)
+  );
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  padding: 66px;
+}
+
+body {
+  background-image: url("/photos/wallpaper3.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+#Footer {
+  width: 40%;
+  left: 30%;
+  position: relative;
+  bottom: 0px;
+  border-radius: 05px;
+  background-color: rgba(167, 201, 212, 0.532);
+  text-align: center;
+  font-family: cursive;
+  font-size:20px;
+}
+
+.taj-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.qutub-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.sanchi-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.hawa-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.victoria-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.hampi-p {
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+}
+.taj-img {
+  border-radius: 50px;
+}
+.qutub-img {
+  border-radius: 50px;
+}
+.sanchi-img {
+  border-radius: 50px;
+}
+.victoria-img {
+  border-radius: 50px;
+}
+.hawa-img {
+  border-radius: 50px;
+}
+.hampi-img {
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .TajMahal {
+    width: 350px;
+  }
+  .taj-img {
+    width: 200px;
+  }
+
+  .QutubMinar {
+    width: 350px;
+  }
+  .qutub-img {
+    width: 200px;
+  }
+
+  #SanchiStupa {
+    width: 350px;
+  }
+  .sanchi-img {
+    width: 200px;
+  }
+
+  #VictoriaMemorial {
+    width: 350px;
+  }
+  .victoria-img {
+    width: 200px;
+  }
+
+  #HawaMahal {
+    width: 350px;
+  }
+  .hawa-img {
+    width: 200px;
+  }
+
+  #Hampi {
+    width: 350px;
+  }
+  .hampi-img {
+    width: 200px;
+  }
+}
